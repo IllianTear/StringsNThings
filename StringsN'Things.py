@@ -10,3 +10,12 @@ lastFirst = lastName + "," + firstName
 print(lastFirst)
 
 # Repitition
+#   repetition operator: *
+print("Hip"*4 + "Hooray!")
+def sailYourBoat():
+    print("Row,"*3 + "your boat")
+    print("Gently down the stream")
+    print("Merrily,"*4)
+    print("Life is but a dream")
+
+sailYourBoat()
