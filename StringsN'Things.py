@@ -37,3 +37,6 @@ print(name[-4:8])
 
 for i in range(0, len(name)+1):
     print(name[0:i])
+
+# Searching
+print("Biv" in name)
