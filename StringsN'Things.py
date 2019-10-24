@@ -28,3 +28,8 @@ middleCharIndex = len(name) // 2
 print(middleCharIndex)
 print(name[middleCharIndex])
 print(name[-3])
+
+for i in range(0, len(name)):
+    print(name[i])
+
+# Slicing and dicing
