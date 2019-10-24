@@ -40,3 +40,6 @@ for i in range(0, len(name)+1):
 
 # Searching
 print("Biv" in name)
+if "y" not in name:
+    print("y is not in name")
+    
