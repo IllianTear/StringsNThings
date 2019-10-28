@@ -60,3 +60,5 @@ else:
     # Be sure to include multiple examples of all of them in use
 
 # Character functions
+print(ord('a'))
+print(chr(75))
