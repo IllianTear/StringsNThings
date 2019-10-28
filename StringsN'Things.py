@@ -65,4 +65,4 @@ print(chr(75))
 print(ord('&'))
 from Mapper import *
 print(letterToIndex('M'))
-print(indexToLetter(16))
+print(indexToLetter(25))
