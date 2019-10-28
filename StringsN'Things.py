@@ -62,3 +62,7 @@ else:
 # Character functions
 print(ord('a'))
 print(chr(75))
+print(ord('&'))
+from Mapper import *
+print(letterToIndex('M'))
+print(indexToLetter(16))
