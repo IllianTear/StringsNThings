@@ -67,4 +67,6 @@ from Mapper import *
 print(letterToIndex('M'))
 print(indexToLetter(25))
 
-ti_sasce_esg_htiwn_otasihsi__ertmsaeta__att_rnmt
+from Crypto import *
+
+print(scrable2Encrypt("HELLO THERE, GENERAL KENOBI."))
