@@ -28,6 +28,11 @@ def scramble2Decrypt(cipherText):
             plainText = plainText + evenChars[-1]
     return plainText
 
-# CaeserEncrypt(plainText, shift)
+def encryptMessage():
+    msg = input("Hello There:")
+    cipherText = caeserEncrypt(msg)
+    print("The message is:", cipherText)
+
+# caeserEncrypt(plainText, shift)
 # CaeserDecrypt(cipherText, shift)
 
