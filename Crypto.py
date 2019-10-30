@@ -27,3 +27,7 @@ def scramble2Decrypt(cipherText):
         if len(oddChars) < len(evenChars):
             plainText = plainText + evenChars[-1]
     return plainText
+
+# CaeserEncrypt(plainText, shift)
+# CaeserDecrypt(cipherText, shift)
+
